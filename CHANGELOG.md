@@ -17,6 +17,18 @@ Types of changes:
 - `<Autocomplete>` - New Autocomplete component from wix-ui-backoffice [1620](https://github.com/wix/wix-style-react/pull/1620)
 - `<ToggleSwitch>` - New ToggleSwitch component from wix-ui-backoffice [1637](https://github.com/wix/wix-style-react/pull/1637)
 
+## 3.1.3 - TBD
+### Fixed
+- `<Tooltip>` - Fixed `Tooltip` positioning within `Page` component [#1649](https://github.com/wix/wix-style-react/pull/1649)
+- `<DatePicker/>` - `onChange` called with time part untouched [#1631](https://github.com/wix/wix-style-react/pull/1631)
+
+## 3.1.2 - 2018-04-08
+### Fixed
+- `<FieldWithSelection>` - Fix missing styling when with Checkbox [#1642](https://github.com/wix/wix-style-react/pull/1642)
+
+## 3.1.1 - 2018-04-08
+### Fixed
+- Reverted the removal of `Languages` icon
 
 ## 3.1.0 - 2018-04-08
 ### Added

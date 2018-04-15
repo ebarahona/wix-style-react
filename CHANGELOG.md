@@ -12,6 +12,11 @@ Types of changes:
 1. **Security** in case of vulnerabilities.
 1. **Breaking** for breaking changes
 
+## 4.0.0
+### Changed
+- `<Autocomplete>` - New Autocomplete component from wix-ui-backoffice [1620](https://github.com/wix/wix-style-react/pull/1620)
+- `<ToggleSwitch>` - New ToggleSwitch component from wix-ui-backoffice [1637](https://github.com/wix/wix-style-react/pull/1637)
+- `<Label>` - New Label component from wix-ui-backoffice [1671](https://github.com/wix/wix-style-react/pull/1671)
 ## 3.1.4 - 2018-04-11
 ### Fixed
 - `Page` - Removed z-index from PageHeader
@@ -64,7 +69,6 @@ Types of changes:
 - `<DrillView/>` - dont go over a tags if have no onClick prop [#1599](https://github.com/wix/wix-style-react/pull/1599)
 
 - `<Range/>` - fix click race condition
-
 
 ## 3.0.0
 ### Breaking

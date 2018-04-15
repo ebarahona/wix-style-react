@@ -8,7 +8,7 @@ import '../stories/Introduction';
 import '../stories/Composite'; // TODO: Move to introduction
 
 // 1. Foundations
-import '../stories/Typography/index.story.js'; // 1.2 Text
+import '../stories/Text'; // 1.2 Text
 import '../stories/Label/index.story.js'; // 1.2 + Text
 import '../stories/Heading'; // 1.3 Heading
 import '../stories/Icons'; // 1.4 Icons
@@ -42,15 +42,15 @@ import '../stories/GoogleAddressInput'; // 3.11 GoogleAddressInput
 
 // 4. Selection
 import '../stories/Dropdown'; // 4.1 Dropdown
-import '../stories/AutoComplete'; // 4.1 + AutoComplete
-import '../stories/AutoCompleteComposite'; // 4.1 + AutoCompleteComposite
+import '../stories/Autocomplete'; // 4.1 + Autocomplete
+import '../stories/AutocompleteComposite'; // 4.1 + AutocompleteComposite
 import '../stories/InputWithOptions'; // 4.1 + InputWithOptions
 import '../stories/IconWithOptions'; // 4.1 + IconWithOptions
 import '../stories/ButtonWithOptions'; // 4.1 + ButtonWithOptions
 import '../stories/DropdownComposite'; // 4.1 + DropdownComposite
 import '../stories/Checkbox.story.js'; // 4.2 Checkbox
 import '../stories/RadioGroup.story.js'; // 4.3 RadioGroup
-import '../stories/ToggleSwitch.story.js'; // 4.4 ToggleSwitch
+import '../stories/ToggleSwitch'; // 4.4 ToggleSwitch
 import '../stories/Slider'; // 4.7 Slider
 import '../stories/GoogleAddressInputWithLabel'; // 4.8 Google address input
 

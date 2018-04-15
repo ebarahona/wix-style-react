@@ -33,9 +33,6 @@ export const dataTableTestkitFactory = protractorTestkitFactoryCreator(dataTable
 import breadcrumbsDriverFactory from '../src/Breadcrumbs/Breadcrumbs.protractor.driver';
 export const breadcrumbsTestkitFactory = protractorTestkitFactoryCreator(breadcrumbsDriverFactory);
 
-import autoCompleteDriverFactory from '../src/AutoComplete/AutoComplete.protractor.driver';
-export const autoCompleteTestkitFactory = protractorTestkitFactoryCreator(autoCompleteDriverFactory);
-
 import checkboxDriverFactory from '../src/Checkbox/Checkbox.protractor.driver';
 export const checkboxTestkitFactory = protractorTestkitFactoryCreator(checkboxDriverFactory);
 
@@ -66,8 +63,8 @@ export const dropdownCompositeTestkitFactory = protractorTestkitFactoryCreator(d
 import multiSelectCompositeDriverFactory from '../src/MultiSelectComposite/MultiSelectComposite.protractor.driver';
 export const multiSelectCompositeTestkitFactory = protractorTestkitFactoryCreator(multiSelectCompositeDriverFactory);
 
-import autoCompleteCompositeDriverFactory from '../src/AutoCompleteComposite/AutoCompleteComposite.protractor.driver';
-export const autoCompleteCompositeTestkitFactory = protractorTestkitFactoryCreator(autoCompleteCompositeDriverFactory);
+import autocompleteCompositeDriverFactory from '../src/Composite/AutocompleteComposite/AutocompleteComposite.protractor.driver';
+export const autocompleteCompositeTestkitFactory = protractorTestkitFactoryCreator(autocompleteCompositeDriverFactory);
 
 import rangeDriverFactory from '../src/Range/Range.protractor.driver';
 export const rangeTestkitFactory = protractorTestkitFactoryCreator(rangeDriverFactory);
@@ -78,14 +75,8 @@ export const fieldWithSelectionCompositeTestkitFactory = protractorTestkitFactor
 import googleAddressWithInputDriverFactory from '../src/GoogleAddressInputWithLabel/GoogleAddressInputWithLabel.protractor.driver';
 export const googleAddressWithInputTestkitFactory = protractorTestkitFactoryCreator(googleAddressWithInputDriverFactory);
 
-import toggleSwitchDriverFactory from '../src/ToggleSwitch/ToggleSwitch.protractor.driver';
-export const toggleSwitchTestkitFactory = protractorTestkitFactoryCreator(toggleSwitchDriverFactory);
-
 import imageViewerDriverFactory from '../src/ImageViewer/ImageViewer.protractor.driver';
 export const imageViewerTestkitFactory = protractorTestkitFactoryCreator(imageViewerDriverFactory);
-
-import textDriverFactory from '../src/Text/Text.protractor.driver';
-export const textTestkitFactory = protractorTestkitFactoryCreator(textDriverFactory);
 
 import tpaTextLinkDriverFactory from '../src/TPA/TextLink/TextLink.protractor.driver';
 export const tpaTextLinkTestkitFactory = protractorTestkitFactoryCreator(tpaTextLinkDriverFactory);
@@ -134,5 +125,8 @@ export const drillViewTestkitFactory = protractorTestkitFactoryCreator(drillView
 export {
   badgeTestkitFactory,
   stylableCounterBadgeTestkitFactory as counterBadgeTestkitFactory,
-  headingTestkitFactory
+  headingTestkitFactory,
+  autocompleteTestkitFactory,
+  toggleSwitchTestkitFactory,
+  textTestkitFactory
 } from 'wix-ui-backoffice/dist/src/testkit/protractor';

@@ -39,9 +39,6 @@ export const pageHeaderTestkitFactory = testkitFactoryCreator(pageHeaderDriverFa
 import languagePickerDriverFactory from '../src/LanguagePicker/LanguagePicker.driver';
 export const languagePickerTestkitFactory = testkitFactoryCreator(languagePickerDriverFactory);
 
-import autoCompleteDriverFactory from '../src/AutoComplete/AutoComplete.driver';
-export const autoCompleteTestkitFactory = testkitFactoryCreator(autoCompleteDriverFactory);
-
 import dropdownDriverFactory from '../src/Dropdown/Dropdown.driver';
 export const dropdownTestkitFactory = testkitFactoryCreator(dropdownDriverFactory);
 
@@ -75,8 +72,8 @@ export const textFieldTestkitFactory = testkitFactoryCreator(textFieldDriverFact
 import dropdownCompositeDriverFactory from '../src/DropdownComposite/DropdownComposite.driver';
 export const dropdownCompositeTestkitFactory = testkitFactoryCreator(dropdownCompositeDriverFactory);
 
-import autoCompleteCompositeDriverFactory from '../src/AutoCompleteComposite/AutoCompleteComposite.driver';
-export const autoCompleteCompositeTestkitFactory = testkitFactoryCreator(autoCompleteCompositeDriverFactory);
+import autocompleteCompositeDriverFactory from '../src/Composite/AutocompleteComposite/AutocompleteComposite.driver';
+export const autocompleteCompositeTestkitFactory = testkitFactoryCreator(autocompleteCompositeDriverFactory);
 
 import multiSelectCompositeDriverFactory from '../src/MultiSelectComposite/MultiSelectComposite.driver';
 export const multiSelectCompositeTestkitFactory = testkitFactoryCreator(multiSelectCompositeDriverFactory);
@@ -138,14 +135,8 @@ export const sliderTestkitFactory = testkitFactoryCreator(sliderDriverFactory);
 import filePickerDriverFactory from '../src/FilePicker/FilePicker.driver';
 export const filePickerTestkitFactory = testkitFactoryCreator(filePickerDriverFactory);
 
-import toggleSwitchDriverFactory from '../src/ToggleSwitch/ToggleSwitch.driver';
-export const toggleSwitchTestkitFactory = testkitFactoryCreator(toggleSwitchDriverFactory);
-
 import imageViewerDriverFactory from '../src/ImageViewer/ImageViewer.driver';
 export const imageViewerTestkitFactory = testkitFactoryCreator(imageViewerDriverFactory);
-
-import textDriverFactory from '../src/Text/Text.driver';
-export const textTestkitFactory = testkitFactoryCreator(textDriverFactory);
 
 import sideMenuDriverFactory from '../src/SideMenu/core/SideMenu.driver';
 export const sideMenuTestkitFactory = testkitFactoryCreator(sideMenuDriverFactory);
@@ -209,5 +200,8 @@ export const sectionHelperTestkitFactory = testkitFactoryCreator(sectionHelperDr
 export {
   badgeTestkitFactory,
   stylableCounterBadgeTestkitFactory as counterBadgeTestkitFactory,
-  headingTestkitFactory
+  headingTestkitFactory,
+  autocompleteTestkitFactory,
+  toggleSwitchTestkitFactory,
+  textTestkitFactory
 } from 'wix-ui-backoffice/dist/src/testkit';
